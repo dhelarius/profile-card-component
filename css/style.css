@@ -41,8 +41,8 @@
 
 /*===== SHADOWS =====*/
 :root {
-  --shadow-light: rgba(0,0,0,.19);
-  --shadow-dark: rgba(0,0,0,.23);
+  --shadow-light: rgba(0,0,0,.10);
+  --shadow-dark: rgba(0,0,0,.10);
 }
 
 * {
@@ -102,7 +102,7 @@ body {
   text-align: center;
   border-radius: 1rem;
   z-index: var(--zi-100);
-  box-shadow: 0 0 20px var(--shadow-light), 0 6px 6px var(--shadow-dark);
+  box-shadow: 0 0 40px var(--shadow-light), 0 6px 40px var(--shadow-dark);
 }
 
 /*--- TOP IMG ---*/
